@@ -23,8 +23,8 @@ jobs:
          GOARM=7
          GOARCH=arm
          GOOS=linux
-         go build main.go
-#         go build -v
+#         go build main.go
+         go build -v
  
     # - name: Test
       # run: go test -v ./...
